@@ -1,1 +1,3 @@
 # YOLOv8-People-Tracker
+
+This project is a real-time people counting system made with YOLOv8, SORT tracker, Python, and OpenCV. It can detect people in a video and count them as they move across two lines, one for people going up and another for people going down. The video is processed frame by frame, and you can use a mask to focus detection on a certain area. YOLOv8 finds people in each frame, and the SORT tracker gives each person a unique ID, so the same person is not counted twice. When a person crosses a line, the counter increases, and the line changes color to green to show the detection. The system also shows boxes around people, their IDs, center points, and graphics to make it easier to see. 
